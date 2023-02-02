@@ -5,10 +5,9 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
-
   font-size: ${p => p.theme.fontSizes[1]}px;
   width: ${p => p.theme.sizes.width[5]}px;
-  margin-left: ${p => p.theme.space[8]}px;
+  margin: auto;
 
   color: ${p => p.theme.colors.text};
   background-color: ${p => p.theme.colors.backgroundColor};

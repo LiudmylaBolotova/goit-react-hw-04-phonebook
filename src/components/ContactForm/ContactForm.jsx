@@ -68,5 +68,3 @@ export function ContactForm({ formSubmitHandler }) {
 ContactForm.propTypes = {
   formSubmitHandler: propTypes.func.isRequired,
 };
-
-

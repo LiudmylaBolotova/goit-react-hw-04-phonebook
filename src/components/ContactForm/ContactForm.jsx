@@ -33,7 +33,7 @@ export function ContactForm({ formSubmitHandler }) {
   }
 
   return (
-    <div>
+    <>
       <Form onSubmit={onSubmitForm}>
         <TitleForm>Name</TitleForm>
         <label>
@@ -61,7 +61,7 @@ export function ContactForm({ formSubmitHandler }) {
         </label>
         <BtnForm type="submit">Add contact</BtnForm>
       </Form>
-    </div>
+    </>
   );
 }
 
